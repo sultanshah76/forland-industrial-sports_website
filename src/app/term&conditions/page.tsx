@@ -6,7 +6,7 @@ export default function Termandconditions() {
       <section className="relative  overflow-hidden bg-white py-20 dark:bg-dark lg:py-[80px] ">
         <div className="container border-x-8 border-y-8 border-blue-500">
           <h3 className="font-extrabold" >1. Payment Methods:</h3>
-          <ul className="">
+          <ul >
             <li>We accept the following payment methods:</li>
             <li>Bank Wire Transfer (Requires a valid business bank account)</li>
             <li>Bankers Cheque (For approved local customers only)</li>
@@ -145,7 +145,7 @@ export default function Termandconditions() {
         
         <p className="mb-4 block text-base font-semibold text-primary">
             <strong>
-              By placing an order with Janletic Sports, you agree to abide by
+              By placing an order with forland industrial Sports, you agree to abide by
               these terms and conditions.
             </strong>
           

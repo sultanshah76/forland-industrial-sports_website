@@ -15,8 +15,7 @@ const Accordion = () => {
                 Any Questions? Look Here
               </h2>
               <p className="text-base text-body-color dark:text-dark-6">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+              General Questions.
               </p>
             </div>
           </div>
@@ -25,30 +24,34 @@ const Accordion = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-1/2">
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="Can I order a sample?"
+              text="Yes we understand that you may want to check the quality of stitching, sublimation & feel the quality of the fabric, it generally takes 1 week for construction & 3 to 4 days to get delivered in the customer’s hand."
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="Where can we ship to?"
+              text="
+              We can ship anywhere. Our prices always included DHL Express or FedEx IP Shipping Charges."
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="What is the Turnaround time for Custom Team or Club Order?"
+              text="Our Standard turnaround time is 2 weeks excluded shipping time, 100 to 1000 pcs with Player Name & Numbers. On some items, we may need 3 weeks for Custom Football, Baseball & Ice Hockey Uniforms"
             />
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="What are the payment methods you accept?"
+              text="
+              We also use Western Union, Money Gram & Xoom. & several other services that allow you to make payment internationally."
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="What is the Minimum Order Quantity (MOQ) for Custom Team Apparel Order?"
+              text="Minimum Order Quantity per item is 10"
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="Do you offer Free Custom Samples?"
+              text="Yes. We do offer FREE Custom samples for your own design idea you need before you can start bulk order. We have a specific T&C for the free sampling process.
+
+              "
             />
           </div>
         </div>

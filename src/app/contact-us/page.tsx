@@ -15,9 +15,7 @@ const Contact = () => {
                   GET IN TOUCH WITH US
                 </h2>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eius tempor incididunt ut labore e dolore magna aliqua. Ut
-                  enim adiqua minim veniam quis nostrud exercitation ullamco
+                Feel free to reach out to us for any inquiries, feedback, or collaboration opportunities. Our team is here to assist you and we look forward to hearing from you.
                 </p>
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
@@ -79,7 +77,7 @@ const Contact = () => {
                       Phone Number
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      (+62)81 414 257 9980
+                      (+92)3414090430
                     </p>
                   </div>
                 </div>
@@ -104,21 +102,18 @@ const Contact = () => {
                       Email Address
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      info@yourdomain.com
+                    forlandindsports@gmail.com
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-dark-2 sm:p-12">
-                <form>
-                  <ContactInputBox
-                    type="text"
-                    name="name"
-                    placeholder="Your Name"
-                  />
-                  <ContactInputBox
+            <div className="w-full px-4 lg:w-1/2 xl:w-5/12  hidden lg:block">
+              <div className="relative rounded-lg bg-primary p-8 shadow-lg dark:bg-dark-2 sm:p-12 font-bold text-white text-pretty ">
+                 <form className="border-x-8 border-y-2 border-white">
+                  <p className="p-10"> At our company, we prioritize open communication and are committed to providing exceptional support to our customers. Whether you have a question, need assistance, or want to share your feedback, we are here to listen. Your satisfaction is our top priority, and we strive to build strong relationships with our customers. We believe in the power of effective communication and are dedicated to addressing your needs with care and attention to detail. Feel free to reach out to us at any time - we are here to provide you with the assistance and information you need. We look forward to connecting with you!
+                  </p>
+                  {/* <ContactInputBox
                     type="text"
                     name="email"
                     placeholder="Your Email"
@@ -141,7 +136,7 @@ const Contact = () => {
                     >
                       Send Message
                     </button>
-                  </div>
+                  </div> */}
                 </form>
                 <div>
                   <span className="absolute -right-9 -top-10 z-[-1]">

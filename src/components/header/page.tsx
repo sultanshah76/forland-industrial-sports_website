@@ -36,7 +36,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white">
+    <header className="bg-white ">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
@@ -118,7 +118,7 @@ export default function Navbar() {
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
          
-          <Link href="./faqs" className="text-sm font-semibold leading-6"> <button className="inline-flex items-center justify-center rounded-xl bg-blue-500 px-6 py-3 text-center text-base  text-white hover:bg-blue-dark lg:px-7">
+          <Link href="./faqs" className="text-sm font-semibold leading-6"> <button className="inline-flex items-center justify-center rounded-xl bg-primary px-6 py-3 text-center text-base  text-white hover:bg-blue-dark lg:px-7">
             FAQS <span aria-hidden="true">&rarr;</span></button>
           </Link>
         </div>
@@ -151,7 +151,7 @@ export default function Navbar() {
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                        Product
+                        PRODUCTS
                         <ChevronDownIcon
                           className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
                           aria-hidden="true"
@@ -173,10 +173,10 @@ export default function Navbar() {
                   )}
                 </Disclosure>
                 <Link
-                  href="#"
+                  href="./term&conditions"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  FEATURES
+                  TERM & CONDITIONS
                 </Link>
                 <Link
                   href="./contact-us"
@@ -194,7 +194,7 @@ export default function Navbar() {
               </div>
               <div className="py-6">
  <Link href="./faqs" className="text-sm font-semibold leading-6">
-   <button className="inline-flex items-center justify-center rounded-xl bg-blue-500 px-6 py-3 text-center text-base  text-white lg:px-7">
+   <button className="inline-flex items-center justify-center rounded-xl bg-primary px-6 py-3 text-center text-base  text-white lg:px-7">
      FAQS <span aria-hidden="true">&rarr;</span>
    </button>
  </Link>

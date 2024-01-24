@@ -4,31 +4,29 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="relative bg-white pb-[110px] pt-[100px] dark:bg-dark lg:pt-[120px] p-5">
+      <div className="relative  bg-white pb-[110px] pt-[100px] dark:bg-dark lg:pt-[120px] p-5">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-5/12">
               <div className="hero-content">
                 <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
-                  Kickstart Startup Website with TailGrids
+                 Custom Sportswear Manufacturer From Sialkot Pakistan
                 </h1>
                 <p className="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6">
-                  With TailGrids, business and students thrive together.
-                  Business can perfectly match their staffing to changing demand
-                  throughout the dayed.
+                Empowering athletes everywhere, forland industrial sports delivers innovative and stylish sportswear designed to elevate performance and inspire greatness.
                 </p>
                 <ul className="flex flex-wrap items-center">
                   <li>
-                    <a
-                      href="/#"
+                    <Link
+                      href="./contact-us"
                       className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7"
                     >
-                      Get Started
-                    </a>
+                      ORDER-NOW
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/#"
+                    <Link
+                      href="./faqs"
                       className="inline-flex items-center justify-center px-5 py-3 text-center text-base font-medium text-[#464646] hover:text-primary dark:text-white"
                     >
                       <span className="mr-2">
@@ -45,28 +43,28 @@ const Hero = () => {
                             y="14.979"
                             width="8.18182"
                             height="1.63636"
-                            fill="white"
+                            fill="primary"
                           />
                           <rect
                             x="11.2717"
                             y="7.61523"
                             width="1.63636"
                             height="4.09091"
-                            fill="white"
+                            fill="primary"
                           />
                           <path
                             d="M12.0898 14.1606L14.9241 11.0925H9.25557L12.0898 14.1606Z"
-                            fill="white"
+                            fill="primary"
                           />
                         </svg>
                       </span>
-                      Download App
-                    </a>
+                      FAQ
+                    </Link>
                   </li>
                 </ul>
                 <div className="clients pt-16">
                   <h6 className="mb-6 flex items-center text-xs font-normal text-body-color dark:text-dark-6">
-                    Some Of Our Clients
+                    Some Of Our products
                     <span className="ml-3 inline-block h-px w-8 bg-body-color"></span>
                   </h6>
 
