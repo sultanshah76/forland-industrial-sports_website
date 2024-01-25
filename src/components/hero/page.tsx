@@ -1,7 +1,38 @@
+
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
+import image1 from "@/components/assets/leggings.webp";
+import image2 from "@/components/assets/shorts.webp";
+import image3 from "@/components/assets/tracksuit.webp";
+import image4 from "@/components/assets/tanktop.webp";
+import image5 from "@/components/assets/denim.webp";
+import image6 from "@/components/assets/Top-Quality-Custom-New-Design-Cricket-Jersey-Sets.png";
+import image7 from "@/components/assets/CB-02-3_612b1548-95d3-413f-9e96-d3cde8727641.webp";
+import Image from "next/image";
 
 const Hero = () => {
+  const pictures = [
+    { src: image1, route: "/route1", alt: "First Image" },
+    { src: image2, route: "/route2", alt: "Second Image" },
+    { src: image3, route: "/route3", alt: "Third Image" },
+    { src: image4, route: "/route1", alt: "First Image" },
+    { src: image5, route: "/route2", alt: "Second Image" },
+    { src: image6, route: "/route3", alt: "Third Image" },
+    { src: image7, route: "/route3", alt: "Third Image" },
+
+  ];
+  const [currentPictureIndex, setCurrentPictureIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentPictureIndex((prevIndex) =>
+        prevIndex === pictures.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 5000); // Change picture every 5 seconds
+
+    return () => clearInterval(interval);
+  }, [pictures.length]);
   return (
     <>
       <div className="relative  bg-white pb-[110px] pt-[100px] dark:bg-dark lg:pt-[120px] p-5">
@@ -10,10 +41,12 @@ const Hero = () => {
             <div className="w-full px-4 lg:w-5/12">
               <div className="hero-content">
                 <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
-                 Custom Sportswear Manufacturer From Sialkot Pakistan
+                  Custom Sportswear Manufacturer From Sialkot Pakistan
                 </h1>
                 <p className="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6">
-                Empowering athletes everywhere, forland industrial sports delivers innovative and stylish sportswear designed to elevate performance and inspire greatness.
+                  Empowering athletes everywhere, forland industrial sports
+                  delivers innovative and stylish sportswear designed to elevate
+                  performance and inspire greatness.
                 </p>
                 <ul className="flex flex-wrap items-center">
                   <li>
@@ -91,11 +124,13 @@ const Hero = () => {
             <div className="w-full px-4 lg:w-6/12">
               <div className="lg:ml-auto lg:text-right">
                 <div className="relative z-10 inline-block pt-11 lg:pt-0">
-                  <img
-                    src="https://cdn.tailgrids.com/1.0/assets/images/hero/hero-image-01.png"
-                    alt="hero"
-                    className="max-w-full lg:ml-auto"
-                  />
+                  <a href={pictures[currentPictureIndex].route}>
+                    <Image
+                      src={pictures[currentPictureIndex].src}
+                      alt={`Image ${currentPictureIndex + 1}`}
+                      className="rounded-3xl"
+                    />
+                  </a>
                   <span className="absolute -bottom-8 -left-8 z-[-1]">
                     <svg
                       width="93"
@@ -147,7 +182,13 @@ const SingleImage = ({ href, imgSrc }: { href: string; imgSrc: string }) => {
   return (
     <>
       <Link href={href} className="flex w-full items-center justify-center">
-        <img src={imgSrc} alt="brand image" className="h-10 w-full" />
+        <Image
+          src={imgSrc}
+          alt="brand image"
+          className="h-10 w-full"
+          width={100}
+          height={100}
+        />
       </Link>
       {/* <button className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7"></button> */}
     </>

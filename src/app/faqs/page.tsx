@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const Accordion = () => {
   return (
-    <section className="relative overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
+    <section className="relative overflow-hidden bg-primary pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -14,7 +14,7 @@ const Accordion = () => {
               <h2 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
                 Any Questions? Look Here
               </h2>
-              <p className="text-base text-body-color dark:text-dark-6">
+              <p className="text-base text-white dark:text-dark-6">
               General Questions.
               </p>
             </div>

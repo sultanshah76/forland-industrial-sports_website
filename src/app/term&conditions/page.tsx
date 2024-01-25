@@ -3,9 +3,9 @@ import React from "react";
 export default function Termandconditions() {
   return (
     <>
-      <section className="relative  overflow-hidden bg-white py-20 dark:bg-dark lg:py-[80px] ">
-        <div className="container border-x-8 border-y-8 border-blue-500">
-          <h3 className="font-extrabold" >1. Payment Methods:</h3>
+      <section className="relative  overflow-hidden bg-primary py-5 dark:bg-dark lg:py-[80px] ">
+        <div className="container border-x-8 border-y-8 border-white text-white">
+          <h3 className="font-extrabold text-black " >1. Payment Methods:</h3>
           <ul >
             <li>We accept the following payment methods:</li>
             <li>Bank Wire Transfer (Requires a valid business bank account)</li>
@@ -16,25 +16,25 @@ export default function Termandconditions() {
             <li>Other hassle-free payment services</li>
           </ul>
           <p>&nbsp;</p>
-          <h3 className="font-extrabold">2. Currency:</h3>
+          <h3 className="font-extrabold  text-black">2. Currency:</h3>
           <p>
             All prices are quoted in USD (United States Dollars) unless another
             currency is specifically mentioned.
           </p>
           <p>&nbsp;</p>
-          <h3 className="font-extrabold">3. Minimum Order Quantity (MOQ):</h3>
+          <h3 className="font-extrabold  text-black">3. Minimum Order Quantity (MOQ):</h3>
           <p>
             Our minimum order quantity is 100 pieces per design and color. We do
             not offer single-piece orders.
           </p>
           <p>&nbsp;</p>
-          <h3 className="font-extrabold">4. Pricing and Quotes:</h3>
+          <h3 className="font-extrabold  text-black">4. Pricing and Quotes:</h3>
           <p>
             Prices are subject to change without prior notice, but customer
             quotes will be honored for 30 days.
           </p>
           <p>&nbsp;</p>
-          <h3 className="font-extrabold">5. Sample and Design Approval:</h3>
+          <h3 className="font-extrabold  text-black">5. Sample and Design Approval:</h3>
           <ul>
             <li>
               Before production, a sample will be created for your review and
@@ -50,7 +50,7 @@ export default function Termandconditions() {
             </li>
           </ul>
           <p>&nbsp;</p>
-          <h3 className="font-extrabold">6. Payment Schedule:</h3>
+          <h3 className="font-extrabold  text-black">6. Payment Schedule:</h3>
           <ul>
             <li>
               We require a 50% deposit of the total order value before
@@ -67,14 +67,14 @@ export default function Termandconditions() {
             </li>
           </ul>
           <p>&nbsp;</p>
-          <h3 className="font-extrabold">7. Payment Due Date:</h3>
+          <h3 className="font-extrabold  text-black">7. Payment Due Date:</h3>
           <p>
             Payment is due within 15 days from the date of the deposit invoice
             and within 15 days from the date of the final invoice for the
             balance payment.
           </p>
           <p>&nbsp;</p>
-          <h3 className="font-extrabold">8. Late Payment:</h3>
+          <h3 className="font-extrabold  text-black">8. Late Payment:</h3>
           <ul>
             <li>
               Payment delays may affect the production and delivery schedule of
@@ -86,7 +86,7 @@ export default function Termandconditions() {
             </li>
           </ul>
           <p>&nbsp;</p>
-          <h3 className="font-extrabold">9. Order Cancellation:</h3>
+          <h3 className="font-extrabold  text-black">9. Order Cancellation:</h3>
           <ul>
             <li>
               Orders can be canceled without penalty only if done so within
@@ -98,7 +98,7 @@ export default function Termandconditions() {
             </li>
           </ul>
           <p>&nbsp;</p>
-          <h3 className="font-extrabold">10. Delivery and Shipping:</h3>
+          <h3 className="font-extrabold  text-black">10. Delivery and Shipping:</h3>
           <ul>
             <li>
               Shipping costs will be calculated and added to the final invoice.
@@ -112,7 +112,7 @@ export default function Termandconditions() {
             </li>
           </ul>
           <p>&nbsp;</p>
-          <h3 className="font-extrabold">11. Taxes and Duties:</h3>
+          <h3 className="font-extrabold  text-black">11. Taxes and Duties:</h3>
           <p>
             Unless otherwise specified, all prices quoted do not include taxes
             and duties. Customers are responsible for any applicable taxes,
@@ -122,7 +122,7 @@ export default function Termandconditions() {
             agency for information on any applicable charges.
           </p>
           <p>&nbsp;</p>
-          <h3 className="font-extrabold">12. Credit Terms:</h3>
+          <h3 className="font-extrabold  text-black">12. Credit Terms:</h3>
           <p>
             We do not offer credit terms for payment. All orders must be prepaid
             according to the payment schedule outlined in these payment terms.
@@ -131,7 +131,7 @@ export default function Termandconditions() {
             customers.
           </p>
           <p>&nbsp;</p>
-          <h3 className="font-extrabold">13. Returns and Refunds:</h3>
+          <h3 className="font-extrabold  text-black">13. Returns and Refunds:</h3>
           <ul>
             <li>
               Returns are only accepted for defective or damaged products.

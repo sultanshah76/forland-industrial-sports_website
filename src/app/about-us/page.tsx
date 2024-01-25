@@ -5,7 +5,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
+      <section className="overflow-hidden pt-5 pb-8 lg:pt-[120px] lg:pb-[90px] bg-primary dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
@@ -611,7 +611,7 @@ const About = () => {
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-lg font-semibold text-primary">
+                <span className="block mb-4 text-lg font-semibold text-white">
                   Why Choose Us
                 </span>
                 <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
@@ -625,7 +625,7 @@ const About = () => {
                 </p>
                 <Link
                   href="./contact-us"
-                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
+                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-primary border border-transparent rounded-md px-7 bg-white hover:bg-opacity-90"
                 >
                   ORDER NOW
                 </Link>

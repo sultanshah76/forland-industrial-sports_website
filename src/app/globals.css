@@ -54,4 +54,7 @@
   .custom-padding {
     padding: 20px;
   }
+  .half-width {
+    width: 50%;
+  }
 }

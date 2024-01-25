@@ -1,25 +1,24 @@
 import Link from "next/link";
 import React from "react";
+import Mark from '@/components/assets/fis footer logo.svg';
 
 const Footer = () => {
   return (
     <>
-      <footer className="relative z-10 bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[20px]">
+      <footer className="relative z-10 bg-white pb-10 pt-5 dark:bg-dark lg:pb-5 lg:pt-[20px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="mb-10 w-full">
-                <Link href="./" className="mb-6 inline-block max-w-[160px]">
+                <Link href="./" className="mb-6 inline-block max-w-[250px]">
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+                    src={Mark.src}
                     alt="logo"
-                    className="max-w-full dark:hidden"
+                    className=" max-w-full dark:hidden"
+                    width={250}
+                    
                   />
-                  <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
-                    alt="logo"
-                    className="max-w-full hidden dark:block"
-                  />
+                  
                 </Link>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">
                   Contact us today to learn more about how we can help you take your business to the next level.
@@ -60,22 +59,22 @@ const Footer = () => {
             </div>
 
             <LinkGroup header="Resources">
-              <NavLink link="/#" label="SaaS Development" />
-              <NavLink link="/#" label="Our Products" />
-              <NavLink link="/#" label="User Flow" />
-              <NavLink link="/#" label="User Strategy" />
+              <NavLink label="Development" link={"k"} />
+              <NavLink label="Our Products" link={"k"} />
+              <NavLink label="User Flow" link={"k"} />
+              <NavLink label="User Strategy" link={"j"} />
             </LinkGroup>
             <LinkGroup header="Company">
-              <NavLink link="/#" label="About TailGrids" />
-              <NavLink link="/#" label="Contact & Support" />
-              <NavLink link="/#" label="Success History" />
-              <NavLink link="/#" label="Setting & Privacy" />
+              <NavLink  label="About" link={"j"} />
+              <NavLink  label="Contact & Support" link={"b"} />
+              <NavLink  label="Setting & Privacy" link={"j"} />
+              <NavLink  label="Success History" link={"j"} />
             </LinkGroup>
             <LinkGroup header="Quick Links">
-              <NavLink link="/#" label="Premium Support" />
-              <NavLink link="/#" label="Our Services" />
-              <NavLink link="/#" label="Know Our Team" />
-              <NavLink link="/#" label="Download App" />
+              <NavLink label="Download App" link={"n"} />
+              <NavLink label="Premium Support" link={"n"} />
+              <NavLink label="Our Services" link={"j"} />
+              <NavLink label="Know Our Team" link={"j"} />
             </LinkGroup>
 
             <div className="w-full px-4 sm:w-1/2 lg:w-3/12">
@@ -86,7 +85,7 @@ const Footer = () => {
                 <div className="mb-6 flex items-center">
                   {/* facebook */}
                   <Link
-                    href="javascript:void(0)"
+                    href="https://www.facebook.com/profile.php?id=61550586854970&mibextid=ZbWKwL"
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
@@ -100,7 +99,7 @@ const Footer = () => {
                   </Link>
                   {/* twitter */}
                   <Link
-                    href="javascript:void(0)"
+                    href="https://x.com/forlandind32894?t=JaJ-6jSUxCzHB3mF9h9CRA&s=09"
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
@@ -114,7 +113,7 @@ const Footer = () => {
                   </Link>
                   {/* youtube */}
                   <Link
-                    href="javascript:void(0)"
+                    href="https://www.instagram.com/forlandindsports?igsh=MXF3djcwMGVjc3hwOQ=="
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
@@ -128,7 +127,7 @@ const Footer = () => {
                   </Link>
                   {/* linkden */}
                   <Link
-                    href="javascript:void(0)"
+                    href="https://www.linkedin.com/in/forland-industrial-sports-1b905a2a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
