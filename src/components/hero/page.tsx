@@ -8,15 +8,19 @@ import tracksuit from "@/components/assets/tracksuit.webp";
 import tanktop from "@/components/assets/tanktop.webp";
 import denim from "@/components/assets/denim.webp";
 import uniform from "@/components/assets/Full white set .webp";
+import cargo from "@/components/assets/products/cargo/ft-mjt010-8_1699444094-752518992849.jpg";
 
 const Hero = () => {
   const pictures = [
-    { src: leggings, route: "/route1", alt: "Leggings" },
-    { src: shorts, route: "/route2", alt: "Shorts" },
-    { src: tracksuit, route: "/route3", alt: "Tracksuit" },
-    { src: tanktop, route: "/route1", alt: "Tanktop" },
-    { src: denim, route: "/route2", alt: "Denim" },
-    { src: uniform, route: "/route3", alt: "Cricket/football uniform" },
+    { src: leggings, route: "./legging", alt: "Leggings" },
+    { src: shorts, route: "./shorts", alt: "Shorts" },
+    { src: tracksuit, route: "./tracksuits", alt: "Tracksuit" },
+    { src: tanktop, route: "./tanktop", alt: "Tanktop" },
+    { src: denim, route: "./denim", alt: "Denim" },
+    { src: uniform, route: "./uniforms", alt: "Cricket/football uniform" },
+    { src: cargo, route: "./cargo", alt: "Cargo" },
+    
+
   ];
   const [currentPictureIndex, setCurrentPictureIndex] = useState(0);
 
