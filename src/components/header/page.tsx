@@ -20,7 +20,7 @@ import {
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
 import Link from "next/link";
-import fis from "@/components/assets/fis.png";
+// import fis from "@/components/assets/fis.png";
 import Mark from "@/components/assets/fis.svg";
 const products = [
   {

@@ -58,3 +58,8 @@
     width: 50%;
   }
 }
+@media (max-width: 640px) {
+  .hidden:sm {
+    display: none;
+  }
+}

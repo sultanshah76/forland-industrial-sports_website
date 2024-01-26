@@ -1,4 +1,173 @@
+// import Link from "next/link";
+// import Image from "next/image";
+// import Mark from '@/components/assets/fis footer logo.svg';
+
+// const Footer = () => {
+//   return (
+//     <footer className="relative z-10 bg-white pb-10 pt-5 dark:bg-dark lg:pb-5 lg:pt-[20px]">
+//       <div className="container">
+//         <div className="-mx-4 flex flex-wrap">
+//           <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
+//             <div className="mb-10 w-full">
+//               <Link href="/" passHref>
+//                 <a className="mb-6 inline-block max-w-[250px]">
+//                   <Image src={Mark} alt="logo" width={250} height={50} />
+//                 </a>
+//               </Link>
+//               <p className="mb-7 text-base text-body-color dark:text-dark-6">
+//                 Contact us today to learn more about how we can help you take your business to the next level.
+//               </p>
+//               <p className="flex items-center text-sm font-medium text-dark dark:text-white">
+//                 <span className="mr-3 text-primary">
+//                   <svg
+//                     width="20"
+//                     height="20"
+//                     viewBox="0 0 20 20"
+//                     fill="none"
+//                     xmlns="http://www.w3.org/2000/svg"
+//                   >
+//                     {/* Phone icon SVG path */}
+//                   </svg>
+//                 </span>
+//                 <span>(+92)3414090430</span>
+//               </p>
+//             </div>
+//           </div>
+
+//           {/* Link groups */}
+//           <LinkGroup header="Resources">
+//             <NavLink label="Development" link={"/development"} />
+//             <NavLink label="Our Products" link={"/products"} />
+//             <NavLink label="User Flow" link={"/user-flow"} />
+//             <NavLink label="User Strategy" link={"/user-strategy"} />
+//           </LinkGroup>
+
+//           <LinkGroup header="Company">
+//             <NavLink label="About" link={"/about"} />
+//             <NavLink label="Contact & Support" link={"/contact"} />
+//             <NavLink label="Setting & Privacy" link={"/privacy"} />
+//             <NavLink label="Success History" link={"/success"} />
+//           </LinkGroup>
+
+//           <LinkGroup header="Quick Links">
+//             <NavLink label="Download App" link={"/download"} />
+//             <NavLink label="Premium Support" link={"/premium-support"} />
+//             <NavLink label="Our Services" link={"/services"} />
+//             <NavLink label="Know Our Team" link={"/team"} />
+//           </LinkGroup>
+
+//           {/* Follow us section */}
+//           <div className="w-full px-4 sm:w-1/2 lg:w-3/12">
+//             <div className="mb-10 w-full">
+//               <h4 className="mb-9 text-lg font-semibold text-dark dark:text-white">
+//                 Follow Us On
+//               </h4>
+//               <div className="mb-6 flex items-center">
+//                 {/* Social media icons */}
+//                 {/* Facebook */}
+//                 <Link
+//                   href="https://www.facebook.com/profile.php?id=61550586854970&mibextid=ZbWKwL"
+//                   passHref
+//                 >
+//                   <a className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4" target="_blank" rel="noopener noreferrer">
+//                     <svg
+//                       width="8"
+//                       height="16"
+//                       viewBox="0 0 8 16"
+//                       className="fill-current"
+//                     >
+//                       {/* Facebook icon SVG path */}
+//                     </svg>
+//                   </a>
+//                 </Link>
+//                 {/* Twitter */}
+//                 <Link
+//                   href="https://twitter.com/your-twitter-profile"
+//                   passHref
+//                 >
+//                   <a className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4" target="_blank" rel="noopener noreferrer">
+//                     <svg
+//                       width="16"
+//                       height="12"
+//                       viewBox="0 0 16 12"
+//                       className="fill-current"
+//                     >
+//                       {/* Twitter icon SVG path */}
+//                     </svg>
+//                   </a>
+//                 </Link>
+//                 {/* YouTube */}
+//                 <Link
+//                   href="https://www.youtube.com/your-youtube-channel"
+//                   passHref
+//                 >
+//                   <a className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4" target="_blank" rel="noopener noreferrer">
+//                     <svg
+//                       width="16"
+//                       height="12"
+//                       viewBox="0 0 16 12"
+//                       className="fill-current"
+//                     >
+//                       {/* YouTube icon SVG path */}
+//                     </svg>
+//                   </a>
+//                 </Link>
+//                 {/* LinkedIn */}
+//                 <Link
+//                   href="https://www.linkedin.com/company/your-linkedin-page"
+//                   passHref
+//                 >
+//                   <a className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4" target="_blank" rel="noopener noreferrer">
+//                     <svg
+//                       width="14"
+//                       height="14"
+//                       viewBox="0 0 14 14"
+//                       className="fill-current"
+//                     >
+//                       {/* LinkedIn icon SVG path */}
+//                     </svg>
+//                   </a>
+//                 </Link>
+//               </div>
+//               <p className="text-base text-body-color dark:text-dark-6">
+//                 &copy; 2024 FIS All rights reserved
+//               </p>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </footer>
+//   );
+// };
+
+// const LinkGroup = ({ children, header }: any) => {
+//   return (
+//     <div className="w-full px-4 sm:w-1/2 lg:w-2/12 ">
+//       <div className="mb-10 w-full">
+//         <h4 className="mb-5 text-lg font-semibold text-dark dark:text-white">
+//           {header}
+//         </h4>
+//         <ul>{children}</ul>
+//       </div>
+//     </div>
+//   );
+// };
+
+// const NavLink = ({ link, label }: { link: string; label: string }) => {
+//   return (
+//     <li>
+//       <a href={link} className="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6">
+//         {label}
+//       </a>
+//     </li>
+//   );
+// };
+
+// export default Footer;
+
 import Link from "next/link";
+import Image from "next/image";
+
 import React from "react";
 import Mark from '@/components/assets/fis footer logo.svg';
 
@@ -15,7 +184,8 @@ const Footer = () => {
                     src={Mark.src}
                     alt="logo"
                     className=" max-w-full dark:hidden"
-                    width={250}
+                  // width={300}
+                  // height={300}
                     
                   />
                   
