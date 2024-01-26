@@ -4,6 +4,7 @@ import photo1 from "@/components/assets/products/shorts/cargo short.webp";
 import photo2 from "@/components/assets/products/shorts/Regular Fit Basic Shorts.webp";
 import photo3 from "@/components/assets/products/shorts/Regular Fit Basic Shorts 2.webp";
 import photo4 from "@/components/assets/products/shorts/Basic Shorts.webp";
+import WhatsAppButton from '@/components/whatsapp button/page';
 
 const Shorts = () => {
   return (
@@ -57,6 +58,7 @@ const Shorts = () => {
           </div>
         </div>
       </div>
+      <WhatsAppButton/>
     </div>
   );
 };

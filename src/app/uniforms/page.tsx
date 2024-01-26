@@ -4,6 +4,7 @@ import photo1 from "@/components/assets/products/cricket uniforms/1.png";
 import photo2 from "@/components/assets/products/cricket uniforms/2.png";
 import photo3 from "@/components/assets/products/cricket uniforms/3.png";
 import photo4 from "@/components/assets/products/cricket uniforms/4.png";
+import WhatsAppButton from '@/components/whatsapp button/page';
 
 const Uniforms = () => {
   return (
@@ -57,6 +58,7 @@ const Uniforms = () => {
           </div>
           </div>
         </div>
+        <WhatsAppButton/>
       </div>
   );
 };

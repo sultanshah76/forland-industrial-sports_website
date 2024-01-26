@@ -5,6 +5,7 @@ import photo2 from "@/components/assets/products/denim/Basic Jeans2.webp";
 import photo3 from "@/components/assets/products/denim/Basic Jeans3.webp";
 import photo4 from "@/components/assets/products/denim/Faded Jeans.webp";
 import photo5 from "@/components/assets/products/denim/Faded Jeans2.webp";
+import WhatsAppButton from '@/components/whatsapp button/page';
 
 const Denim = () => {
   return (
@@ -69,6 +70,7 @@ const Denim = () => {
             </div>
           </div>
         </div>
+        <WhatsAppButton/>
       </div>
   );
 };

@@ -1,3 +1,4 @@
+import WhatsAppButton from "@/components/whatsapp button/page";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -634,6 +635,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      <WhatsAppButton/>
     </>
   );
 };

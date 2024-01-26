@@ -1,17 +1,19 @@
 import React from 'react';
 import Image from 'next/image';
-import photo1 from "@/components/assets/products/cargo/Men Dark Gray Twill Cargo Trouser.jpg";
-import photo2 from "@/components/assets/products/cargo/Men NAVY BLUE Twill Cargo Trouser.jpg";
-import photo3 from "@/components/assets/products/cargo/Men Dark Gray Twill Cargo Trouser.jpg";
-import photo4 from "@/components/assets/products/cargo/Men Camel Twill Cargo Trouser.jpg";
-import photo5 from "@/components/assets/products/cargo/Men Brown Twill Cargo Trouser.jpg";
+import photo1 from "@/components/assets/products/sports bags/back pack.jpg";
+import photo2 from "@/components/assets/products/sports bags/gym-duffle-bag.jpg";
+import photo3 from "@/components/assets/products/sports bags/gym-fanny-pack.jpg";
+import photo4 from "@/components/assets/products/sports bags/gym-messenger-bag.jpg";
+import photo5 from "@/components/assets/products/sports bags/gym-running-waistpack.jpg";
+import photo6 from "@/components/assets/products/sports bags/gym-tote.jpg";
+
 import WhatsAppButton from '@/components/whatsapp button/page';
 
 const Cargo = () => {
   return (
     <div className="bg-white">
       <div className="container mx-auto px-4 py-8 lg:px-8">
-        <h1 className="text-3xl font-bold text-center mb-8">Forland Industrial Sports(Cargo collection)</h1>
+        <h1 className="text-3xl font-bold text-center mb-8">Forland Industrial Sports(Bags collection)</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           <div className="relative overflow-hidden rounded-lg shadow-md">
             <Image
@@ -21,7 +23,7 @@ const Cargo = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            Men Dark Gray Twill Cargo Trouser
+            back pack
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -32,7 +34,7 @@ const Cargo = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            Men NAVY BLUE Twill Cargo Trouser
+            gym-duffle-bag
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -43,7 +45,7 @@ const Cargo = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            Men Dark Gray Twill Cargo Trouser
+            gym-fanny-pack
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -54,7 +56,7 @@ const Cargo = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            Men Camel Twill Cargo Trouser
+            gym-messenger-bag
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -65,7 +67,18 @@ const Cargo = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            Men Brown Twill Cargo Trouser.jpg
+            gym-running-waistpack
+          </div>
+            </div>
+            <div className="relative overflow-hidden rounded-lg shadow-md">
+            <Image
+              src={photo6}
+              alt="Sample Image 5"
+              width={400}
+              height={300}
+            />
+            <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
+            gym-tote
           </div>
             </div>
           </div>

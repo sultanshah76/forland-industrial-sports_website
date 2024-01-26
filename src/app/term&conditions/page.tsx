@@ -1,3 +1,4 @@
+import WhatsAppButton from "@/components/whatsapp button/page";
 import React from "react";
 
 export default function Termandconditions() {
@@ -157,6 +158,7 @@ export default function Termandconditions() {
           </p>
           </div>
       </section>
+      <WhatsAppButton/>
     </>
   );
 }

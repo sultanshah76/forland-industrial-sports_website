@@ -7,8 +7,11 @@ import shorts from "@/components/assets/shorts.webp";
 import tracksuit from "@/components/assets/tracksuit.webp";
 import tanktop from "@/components/assets/tanktop.webp";
 import denim from "@/components/assets/denim.webp";
-import uniform from "@/components/assets/Full white set .webp";
-import cargo from "@/components/assets/products/cargo/ft-mjt010-8_1699444094-752518992849.jpg";
+import uniform from "@/components/assets/uniform.png";
+import cargo from "@/components/assets/Untitled-1.png";
+import bags from "@/components/assets/RetroDuffel.webp";
+
+import WhatsAppButton from "../whatsapp button/page";
 
 const Hero = () => {
   const pictures = [
@@ -19,6 +22,7 @@ const Hero = () => {
     { src: denim, route: "./denim", alt: "Denim" },
     { src: uniform, route: "./uniforms", alt: "Cricket/football uniform" },
     { src: cargo, route: "./cargo", alt: "Cargo" },
+    { src: bags, route: "./bags", alt: "Bags" },
     
 
   ];
@@ -143,6 +147,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <div><WhatsAppButton/></div>
     </div>
   );
 };

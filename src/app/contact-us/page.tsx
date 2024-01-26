@@ -1,3 +1,4 @@
+import WhatsAppButton from "@/components/whatsapp button/page";
 import React from "react";
 
 const Contact = () => {
@@ -37,7 +38,7 @@ const Contact = () => {
                       Our Location
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                    Near Main Model Town Rd, Model Town, Ugoke, Sialkot, Pakistan
                     </p>
                   </div>
                 </div>
@@ -951,6 +952,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <WhatsAppButton/>
     </>
   );
 };

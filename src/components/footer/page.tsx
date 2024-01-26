@@ -174,7 +174,7 @@ import Mark from '@/components/assets/fis footer logo.svg';
 const Footer = () => {
   return (
     <>
-      <footer className="relative z-10 bg-white pb-10 pt-5 dark:bg-dark lg:pb-5 lg:pt-[20px]">
+      <footer className="relative bg-white pb-10 pt-5 dark:bg-dark lg:pb-5 lg:pt-[20px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
@@ -313,6 +313,9 @@ const Footer = () => {
                 <p className="text-base text-body-color dark:text-dark-6">
                   &copy; 2024 FIS All rights reserved
                 </p>
+              </div>
+              <div className=" text-pretty text-black font-bold">website develop by (syed m sultan)
+                contact-info:032466083897
               </div>
             </div>
           </div>

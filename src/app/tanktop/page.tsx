@@ -3,6 +3,7 @@ import Image from 'next/image';
 import photo1 from "@/components/assets/products/tanktops/Regular Fit Tank Top 3.webp";
 import photo2 from "@/components/assets/products/tanktops/Relax Fit Tank Top 2.webp";
 import photo3 from "@/components/assets/products/tanktops/Relax Fit Tank Top.webp";
+import WhatsAppButton from '@/components/whatsapp button/page';
 
 const Tanktop = () => {
   return (
@@ -45,6 +46,7 @@ const Tanktop = () => {
           </div>
           </div>
         </div>
+        <WhatsAppButton/>
       </div>
   );
 };

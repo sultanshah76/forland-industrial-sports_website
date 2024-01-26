@@ -5,6 +5,7 @@ import photo2 from "@/components/assets/products/tracksuits/Knitted Trouser.webp
 import photo3 from "@/components/assets/products/tracksuits/Varsity Jacket.webp";
 import photo4 from "@/components/assets/products/tracksuits/Zipper Jacket.webp";
 import photo5 from "@/components/assets/products/tracksuits/Zipper Sweatshirt.webp";
+import WhatsAppButton from '@/components/whatsapp button/page';
 
 const Tracksuit = () => {
   return (
@@ -69,6 +70,7 @@ const Tracksuit = () => {
             </div>
           </div>
         </div>
+        <WhatsAppButton/>
       </div>
   );
 };

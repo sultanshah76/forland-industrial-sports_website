@@ -6,6 +6,7 @@ import photo3 from "@/components/assets/products/legging/CB-04 LEGGING.webp";
 import photo4 from "@/components/assets/products/legging/CB-O5 LEGGING.webp";
 import photo5 from "@/components/assets/products/legging/ENHANCE SPORTS CAMO LEGGING.webp";
 import photo6 from "@/components/assets/products/legging/ENHANCE SPORTS LINEAR LEGGING.webp";
+import WhatsAppButton from '@/components/whatsapp button/page';
 
 const Legging = () => {
   return (
@@ -81,6 +82,7 @@ const Legging = () => {
           </div>
         </div>
       </div>
+      <WhatsAppButton/>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 "use client"
+import WhatsAppButton from "@/components/whatsapp button/page";
 import React, { useState } from "react";
 
 const Accordion = () => {
@@ -139,6 +140,7 @@ const AccordionItem = ({ header, text }:any) => {
           {text}
         </p>
       </div>
+      <WhatsAppButton/>
     </div>
   );
 };

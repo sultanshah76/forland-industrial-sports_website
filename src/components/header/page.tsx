@@ -23,39 +23,53 @@ import Link from "next/link";
 import Mark from "@/components/assets/fis.png";
 const products = [
   {
-    name: "Analytics",
-    description: "Get a better understanding of your traffic",
-    href: "#",
-    icon: ChartPieIcon,
+    name: "LEGGING",
+    description: "Elevate workouts in our sleek leggings.",
+    href: "./legging",
   },
   {
-    name: "Engagement",
-    description: "Speak directly to your customers",
-    href: "#",
-    icon: CursorArrowRaysIcon,
+    name: "SHORTS",
+    description: "Stay active and stylish with our athletic shorts",
+    href: "./shorts",
+  
   },
   {
-    name: "Security",
-    description: "Your customers’ data will be safe and secure",
-    href: "#",
-    icon: FingerPrintIcon,
+    name: "TRACKSUIT",
+    description: "Achieve athleisure effortlessly with our trendy tracksuits.",
+    href: "./tracksuits",
+  
   },
   {
-    name: "Integrations",
-    description: "Connect with third-party tools",
-    href: "#",
-    icon: SquaresPlusIcon,
+    name: "TANKTOPS",
+    description: "Stay cool and confident with our breathable tank tops.",
+    href: "./tanktop",
+  
   },
   {
-    name: "Automations",
-    description: "Build strategic funnels that will convert",
-    href: "#",
-    icon: ArrowPathIcon,
+    name: "DENIM",
+    description: "Discover timeless style with our versatile denim pieces.",
+    href: "./denim",
+  },
+  {
+    name: "CRICKET/FOOTBALL UNIFORM",
+    description: "Premium sports uniforms for cricket and football.",
+    href: "./uniforms",
+  
+  },
+  {
+    name: "CARGO",
+    description: "Embrace rugged style with our cargo pants.",
+    href: "./cargo",
+  },
+  {
+    name: "SPORTS BAGS",
+    description: "Carry essentials in style with our functional.",
+    href: "./bags",
   },
 ];
 const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
+  { name: "Watch demo", href: "#ii", icon: PlayCircleIcon },
+  { name: "Contact-us", href: "./contact-us", icon: PhoneIcon },
 ];
 
 function classNames(...classes: any) {
@@ -115,12 +129,12 @@ export default function Navbar() {
                       key={item.name}
                       className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                     >
-                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                      {/* <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                         <item.icon
                           className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
                           aria-hidden="true"
                         />
-                      </div>
+                      </div> */}
                       <div className="flex-auto">
                         <Link
                           href={item.href}
