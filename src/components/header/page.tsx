@@ -45,11 +45,7 @@ const products = [
     href: "./tanktop",
   
   },
-  {
-    name: "DENIM",
-    description: "Discover timeless style with our versatile denim pieces.",
-    href: "./denim",
-  },
+  
   {
     name: "CRICKET/FOOTBALL UNIFORM",
     description: "Premium sports uniforms for cricket and football.",

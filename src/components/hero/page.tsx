@@ -19,7 +19,7 @@ const Hero = () => {
     { src: shorts, route: "./shorts", alt: "Shorts" },
     { src: tracksuit, route: "./tracksuits", alt: "Tracksuit" },
     { src: tanktop, route: "./tanktop", alt: "Tanktop" },
-    { src: denim, route: "./denim", alt: "Denim" },
+    // { src: denim, route: "./denim", alt: "Denim" },
     { src: uniform, route: "./uniforms", alt: "Cricket/football uniform" },
     { src: cargo, route: "./cargo", alt: "Cargo" },
     { src: bags, route: "./bags", alt: "Bags" },
