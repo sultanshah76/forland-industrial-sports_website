@@ -23,6 +23,11 @@ import Link from "next/link";
 import Mark from "@/components/assets/fis.png";
 const products = [
   {
+    name: "SPORTS BAGS",
+    description: "Carry essentials in style with our functional.",
+    href: "./bags",
+  },
+  {
     name: "LEGGING",
     description: "Elevate workouts in our sleek leggings.",
     href: "./legging",
@@ -51,16 +56,6 @@ const products = [
     description: "Premium sports uniforms for cricket and football.",
     href: "./uniforms",
   
-  },
-  {
-    name: "CARGO",
-    description: "Embrace rugged style with our cargo pants.",
-    href: "./cargo",
-  },
-  {
-    name: "SPORTS BAGS",
-    description: "Carry essentials in style with our functional.",
-    href: "./bags",
   },
 ];
 const callsToAction = [
@@ -118,7 +113,7 @@ export default function Navbar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-             <Popover.Panel className=" absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+             <Popover.Panel className=" absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-primary shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
                   {products.map((item) => (
                     <div

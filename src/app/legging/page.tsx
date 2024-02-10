@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import photo1 from "@/components/assets/products/legging/CB-02 LEGGING.webp";
-import photo2 from "@/components/assets/products/legging/CB-03 LEGGING.webp";
-import photo3 from "@/components/assets/products/legging/CB-04 LEGGING.webp";
-import photo4 from "@/components/assets/products/legging/CB-O5 LEGGING.webp";
-import photo5 from "@/components/assets/products/legging/ENHANCE SPORTS CAMO LEGGING.webp";
+import photo1 from "@/components/assets/products/legging/footed legging.jpeg";
+import photo2 from "@/components/assets/products/legging/knee leggings.jpeg";
+import photo3 from "@/components/assets/products/legging/mesh legging.jpeg";
+import photo4 from "@/components/assets/products/legging/stirrup leggings.jpeg";
+import photo5 from "@/components/assets/products/legging/tregging legging.jpeg";
 import photo6 from "@/components/assets/products/legging/ENHANCE SPORTS LINEAR LEGGING.webp";
 import WhatsAppButton from '@/components/whatsapp button/page';
 
@@ -22,7 +22,7 @@ const Legging = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-              CB-02 LEGGING
+            footed leggings
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -33,7 +33,7 @@ const Legging = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-              CB-03 LEGGING
+            knee leggings
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -44,7 +44,7 @@ const Legging = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-              CB-04 LEGGING
+            mesh leggings
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -55,7 +55,7 @@ const Legging = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-              CB-05 LEGGING
+            stirrup leggings
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -66,7 +66,7 @@ const Legging = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-              ENHANCE SPORTS CAMO LEGGING
+            tregging leggings
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -77,7 +77,8 @@ const Legging = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-              ENHANCE SPORTS LINEAR LEGGING
+              knee lenght leegings
+
             </div>
           </div>
         </div>

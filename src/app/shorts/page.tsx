@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import photo1 from "@/components/assets/products/shorts/cargo short.webp";
-import photo2 from "@/components/assets/products/shorts/Regular Fit Basic Shorts.webp";
-import photo3 from "@/components/assets/products/shorts/Regular Fit Basic Shorts 2.webp";
-import photo4 from "@/components/assets/products/shorts/Basic Shorts.webp";
+import photo1 from "@/components/assets/products/shorts/CYCSDK01-22-1000x1000.jpg";
+import photo2 from "@/components/assets/products/shorts/running shorts.jpeg";
+import photo3 from "@/components/assets/products/shorts/swimming shorts.jpeg";
+import photo4 from "@/components/assets/products/shorts/tennis shorts.jpeg";
 import WhatsAppButton from '@/components/whatsapp button/page';
 
 const Shorts = () => {
@@ -20,7 +20,7 @@ const Shorts = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            cargo short
+            cycling-shorts
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -31,7 +31,7 @@ const Shorts = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            Regular Fit Basic Shorts
+            running-shorts
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -42,9 +42,10 @@ const Shorts = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            Regular Fit Basic Shorts
+            swimming-shorts
             </div>
           </div>
+          <br />
           <div className="relative overflow-hidden rounded-lg shadow-md">
             <Image
               src={photo4}
@@ -53,7 +54,7 @@ const Shorts = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-           Basic Shorts
+            swimming-shorts
             </div>
           </div>
         </div>

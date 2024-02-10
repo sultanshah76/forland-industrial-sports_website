@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import photo1 from "@/components/assets/products/cricket uniforms/1.png";
-import photo2 from "@/components/assets/products/cricket uniforms/2.png";
+import photo1 from "@/components/assets/products/cricket uniforms/football uniform (2).jpeg";
+import photo2 from "@/components/assets/products/cricket uniforms/football uniform.jpeg";
 import photo3 from "@/components/assets/products/cricket uniforms/3.png";
 import photo4 from "@/components/assets/products/cricket uniforms/4.png";
 import WhatsAppButton from '@/components/whatsapp button/page';
@@ -20,7 +20,7 @@ const Uniforms = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            cricket/football-uniform
+            football-uniform
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -31,7 +31,7 @@ const Uniforms = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            cricket/football-uniform
+            football-uniform
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -42,7 +42,7 @@ const Uniforms = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            cricket/football-uniform
+            cricket-uniform
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -53,7 +53,7 @@ const Uniforms = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            cricket/football-uniform
+            cricket-uniform
             </div>
           </div>
           </div>

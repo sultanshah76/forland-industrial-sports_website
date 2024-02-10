@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import photo1 from "@/components/assets/products/tanktops/Regular Fit Tank Top 3.webp";
-import photo2 from "@/components/assets/products/tanktops/Relax Fit Tank Top 2.webp";
-import photo3 from "@/components/assets/products/tanktops/Relax Fit Tank Top.webp";
+import photo1 from "@/components/assets/products/tanktops/muscle fit tank top.jpeg";
+import photo2 from "@/components/assets/products/tanktops/ribbed tank top.jpeg";
+import photo3 from "@/components/assets/products/tanktops/sleeveless tank top.jpeg";
 import WhatsAppButton from '@/components/whatsapp button/page';
 
 const Tanktop = () => {
@@ -19,7 +19,7 @@ const Tanktop = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            Regular Fit Tank Top
+            muscle-fit-tank-top
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -30,7 +30,7 @@ const Tanktop = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            Regular Fit Tank Top
+            ribbed-tank-top
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -41,7 +41,7 @@ const Tanktop = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            Regular Fit Tank Top
+            sleeveless-tank-top
             </div>
           </div>
           </div>

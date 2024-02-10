@@ -3,9 +3,9 @@ import Image from 'next/image';
 import photo1 from "@/components/assets/products/sports bags/back pack.jpg";
 import photo2 from "@/components/assets/products/sports bags/gym-duffle-bag.jpg";
 import photo3 from "@/components/assets/products/sports bags/gym-fanny-pack.jpg";
-import photo4 from "@/components/assets/products/sports bags/gym-messenger-bag.jpg";
+import photo4 from "@/components/assets/products/sports bags/leather laptop bag.jpeg";
 import photo5 from "@/components/assets/products/sports bags/gym-running-waistpack.jpg";
-import photo6 from "@/components/assets/products/sports bags/gym-tote.jpg";
+import photo6 from "@/components/assets/products/sports bags/golf bag.jpeg";
 
 import WhatsAppButton from '@/components/whatsapp button/page';
 
@@ -23,7 +23,7 @@ const Cargo = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            back pack
+            back-pack
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -56,7 +56,7 @@ const Cargo = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            gym-messenger-bag
+            leather-laptop-bag
             </div>
           </div>
           <div className="relative overflow-hidden rounded-lg shadow-md">
@@ -78,7 +78,7 @@ const Cargo = () => {
               height={300}
             />
             <div className="absolute bottom-0 left-0 w-full bg-primary text-white p-2">
-            gym-tote
+            golf-bag
           </div>
             </div>
           </div>
